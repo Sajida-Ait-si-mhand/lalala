@@ -1,0 +1,7 @@
+Task: Define a structure for a Date and another for a Person which includes a Date of birth. Write functions to print a Date and a Person.
+Details:
+Define a structure named Date with three integer members: day, month, and year.
+Define a structure named Person with a char array for the name and a Date structure for the date of birth.
+Write functions to print a Date and a Person.
+In the main function, declare a variable of type Person, initialize it, and print its details using the functions.
+These exercises should help you practice and understand structures in C. Let me know if you have any questions or need further assistance!
