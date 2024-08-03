@@ -6,7 +6,7 @@
 /*   By: saait-si <saait-si@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 09:06:50 by saait-si          #+#    #+#             */
-/*   Updated: 2024/08/02 12:13:55 by saait-si         ###   ########.fr       */
+/*   Updated: 2024/08/03 20:13:31 by saait-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,21 +45,19 @@ void free_stack(t_node **stack)
 		free(node);
 	}
 }
+
 int main(int ac, char *av[])
 {
 	t_node *stack_a;
 	t_node *stack_b;
 
 	if (ac < 2)
-	{
-		write(1,"Waiting an arg...\n", 19);
-		return(0);
-	}
+		return(write(1,"ERROR\n", 6), 0);
 	stack_a = NULL;
 	stack_b = NULL;
 	if (fill_stack_a(&stack_a, av) == 0 || duplicate(stack_a) == 0)
 	{
-		write(1, "ERROR/n", 6);
+		write(1, "ERROR\n", 6);
 		free_stack(&stack_a);
 		return(0);
 	}

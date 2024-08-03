@@ -20,7 +20,7 @@ int is_degit(char c);
 int is_valid(char *arg_str);
 void ft_free(char **arg_str);
 int fill_stack_a(t_node **stack_a, char **av);
-long int	ft_atoi(const char *str);
+long double	ft_atoi(const char *str);
 int duplicate(t_node *stack);
 char	**ft_split(char const *s, char c);
 
