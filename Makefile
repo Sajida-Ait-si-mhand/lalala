@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -rf
 
 #Files:
-SRC = fill_stack_a.c push_swap.c split.c function.c
+SRC = fill_stack_a.c push_swap.c split.c function.c swap.c push.c
 OBJ = ${SRC:.c=.o}
 
 #library:

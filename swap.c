@@ -1,14 +1,14 @@
-// /* ************************************************************************** */
-// /*                                                                            */
-// /*                                                        :::      ::::::::   */
-// /*   swap.c                                             :+:      :+:    :+:   */
-// /*                                                    +:+ +:+         +:+     */
-// /*   By: saait-si <saait-si@student.1337.ma>        +#+  +:+       +#+        */
-// /*                                                +#+#+#+#+#+   +#+           */
-// /*   Created: 2024/08/03 20:14:03 by saait-si          #+#    #+#             */
-// /*   Updated: 2024/08/03 23:22:33 by saait-si         ###   ########.fr       */
-// /*                                                                            */
-// /* ************************************************************************** */
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   swap.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: saait-si <saait-si@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/03 20:14:03 by saait-si          #+#    #+#             */
+/*   Updated: 2024/08/04 10:40:02 by saait-si         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
 
@@ -29,25 +29,6 @@ void swap(t_node **stack)
     }
 }
 
-// int main()
-// {
-// 	t_node node1;
-//     t_node node2;
-// 	node2.value = 1;       // Initializes node2
-// 	node2.next = NULL; 
-
-// 	node1.value = 0;       // Initializes node2
-// 	node1.next = &node2;       // Initializes node2
-    
-//     t_node *first = &node1;
-//     t_node **stack = &first;
-    
-    
-//     swap(stack);
-//     printf("node1: %d, node2: %d ",first->value, first->next->value);
-    
-//     return 0;
-// }
 void sa(t_node **stack_a)
 {
 	swap(stack_a);
